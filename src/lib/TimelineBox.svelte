@@ -1,7 +1,7 @@
 <script>
     export let date;
     export let text;
-    export let line;
+    export let line = true;
 </script>
 
 <div class="timelineBox">

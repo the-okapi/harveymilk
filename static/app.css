@@ -81,11 +81,8 @@ a {
 .aboutContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 4%;    
+    padding: 4% 10%;
     background-image: conic-gradient(at 30% 50%, #0852ff, #0a8528, #ffef08, #ff9108, #e60808, #0852ff);
-    padding-bottom: 4%;
 }
 
 .aboutImage {
@@ -113,18 +110,20 @@ a {
 .sourcesContainer {
     background-image: conic-gradient(#ffef08, #ff9108, #e60808, #0862ff, #0a8528, #ffef08);
     margin: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding: 4% 10%;
+
 }
 
 .timelineContainer {
-    background-image: conic-gradient(at 50% 46%, #e60808, #0862ff, #0a8528, #ffef08, #ff9108, #e60808);
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    background-image: conic-gradient(at 50% 47%, #e60808, #0862ff, #0a8528, #ffef08, #ff9108, #e60808);
+    padding: 4% 10%;
+
+}
+
+.triviaContainer {
+    background-image: conic-gradient(at 50% 46%, #0a8528, #ffef08, #ff9108, #e60808, #0862ff, #0a8528);
+    padding: 4% 10%;
+
 }
 
 .sourcesText {
@@ -170,4 +169,47 @@ li {
 .middle {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.buttonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.triviaBox {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    height: 200px;
+    margin: 30px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 200px;
+    margin: 7.5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Dosis';
+    cursor: pointer;
+    border: none;
+}
+
+.bGreen {
+    background-image: conic-gradient(#0a8528, #0a7081, #0a8528);
+    color: white;
+}
+
+.bRed {
+    background-image: conic-gradient(#e60808, #ff9108, #e60808);
+    color: white;
 }
