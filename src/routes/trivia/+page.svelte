@@ -7,7 +7,6 @@
 
 <TopBar />
 <div class="triviaContainer">
-    <h1>Harvey Milk Trivia</h1>
 
     {#each questions.questions as question}
         <TriviaQuestion question={question} />

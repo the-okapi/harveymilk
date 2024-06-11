@@ -15,6 +15,7 @@
         <h3>Info Sources</h3>
         <ul>
             <li>Timeline info: <a href="https://abronorth.weebly.com/timeline.html">https://abronorth.weebly.com/timeline.html</a></li>
+            <li>Trivia info: <a href="https://www.imdb.com/name/nm0587548/trivia/">https://www.imdb.com/name/nm0587548/trivia/</a></li>
         </ul>
     </div>
 </div>
