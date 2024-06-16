@@ -1,1 +1,1 @@
-<div class="bottomBar"><h4>Created by <span class="color">the Okapi</span></h4><h4><a href="/sources" class="underline">Sources</a></h4></div>
+<div class="bottomBar"><h4>Created by <span class="color">the Okapi</span></h4><h4><a href="/sources" class="underline source">Sources</a></h4></div>

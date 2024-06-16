@@ -84,6 +84,25 @@ a {
     height: 88%;
     text-align: center;
     background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.accifText {
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.accifImage {
+    margin-left: 27%;
+    border-radius: 15px;
+    height: 400px;
 }
 
 .aboutContainer {
@@ -93,12 +112,12 @@ a {
     background-image: conic-gradient(at 30% 50%, #0852ff, #0a8528, #ffef08, #ff9108, #e60808, #0852ff);
 }
 
-.aboutHMContainer {
+.accifContainer {
     padding: 4% 10%;
-    background-image: conic-gradient(#e60808, #0852ff, #0a8528, #ffef08, #ff9108, #e60808);
+    background-image: conic-gradient(at 32.5% 55%, #e60808, #0852ff, #0a8528, #ffef08, #ff9108, #e60808);
 }
 
-.aboutHMRow {
+.accifRow {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 50px;
@@ -130,7 +149,11 @@ a {
     background-image: conic-gradient(#ffef08, #ff9108, #e60808, #0862ff, #0a8528, #ffef08);
     margin: 0;
     padding: 4% 10%;
+    font-size: 14px;
+}
 
+.source {
+    color: #0862ff;
 }
 
 .timelineContainer {
@@ -182,7 +205,7 @@ a {
     margin-right: auto;
     border-radius: 15px;
     width: 25%;
-    height: 135px;
+    height: 160px;
     text-align: center;
     background-color: black;
 

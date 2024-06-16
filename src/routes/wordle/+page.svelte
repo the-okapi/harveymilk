@@ -10,8 +10,10 @@
         return num;
     }
     let toGuess = words[randNum()];
+    let letters = getLetters(toGuess);
     function redoWord() {
         toGuess = words[randNum()];
+        letters = getLetters(toGuess);
     }
     function getLetters(ofWhat) {
         let toReturn = [];
@@ -24,7 +26,7 @@
     let text = '';
     let hidden = false;
     let word = '';
-    let letters= getLetters(toGuess);
+    let oword = '';
     let classes = [];
     let content = [];
     let row = 0;
@@ -39,9 +41,10 @@
         content.push(conToAdd);
     }
     function guess() {
+        type();
         if (word.length > 6) {
             text = 'Word guessed is too long';
-        } else if (word.length === 0) {
+        } else if (word.length < 6) {
             text = 'Word is too short';
         } else {
             for (let i = 0; i < 6; i++) {
@@ -51,10 +54,10 @@
                     if (word[i] === toGuess[i]) {
                         classes[row][i] = 'wordleGreen';
                         const f = (element) => element === word[i];
-                        letters.splice(letters.findIndex(f));
+                        letters.splice(letters.findIndex(f), 1);
                     } else if (letters.includes(word[i])) {
                         const f = (element) => element === word[i];
-                        letters.splice(letters.findIndex(f));
+                        letters.splice(letters.findIndex(f), 1);
                         classes[row][i] = 'wordleYellow';
                     } else {
                         classes[row][i] = 'wordleWrong';
@@ -81,9 +84,12 @@
                 hidden = true;
                 text = 'Congratulations! You won the wordle!';
             }
+            word = '';
+            oword = '';
         }
     }
     function type() {
+        word = oword.toUpperCase();
         for (let i = 0; i < 6; i++) {
             if (word[i] === undefined) {
                 content[row][i] = '';
@@ -106,9 +112,9 @@
 
 <div class="wordleContainer">
     <div class="wordleBox">
-        <form on:submit={guess} id="form" hidden={hidden}>
-            <input type="text" on:keyup={type} bind:value={word} on:click="{event => event.target.select()}"><button type="submit">Guess</button>
-        </form>
+        <div hidden={hidden}>
+            <input type="text" on:keyup={type} bind:value={oword} on:click="{event => event.target.select()}" placeholder="Guess a Word"><button on:click={guess}>Guess</button>
+        </div>
         {#if done}
             <button on:click={restart}>New Game</button>
         {/if}

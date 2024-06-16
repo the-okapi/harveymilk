@@ -1,7 +1,7 @@
 {
     "questions": [
         {
-            "text": "What district did Harvey Milk represent on the Board of Supervisors?",
+            "text": "What district did Harvey Milk represent on the Board of supervisors?",
             "options": [
                 "District 3",
                 "District 4",
@@ -11,7 +11,7 @@
             "answer": 2
         },
         {
-            "text": "Where was Harvey Milk's grandfather born?",
+            "text": "Where was Harvey Milk's family from?",
             "options": [
                 "Estonia",
                 "Sweden",
@@ -21,7 +21,7 @@
             "answer": 3
         },
         {
-            "text": "What sport did Harvey Milk coach at a New York High School",
+            "text": "What sport did Harvey Milk coach at a New York High School?",
             "options": [
                 "Basketball",
                 "Baseball",
@@ -31,7 +31,7 @@
             "answer": 0
         },
         {
-            "text": "What type of store did Harvey Milk open in San Francisco when he moved?",
+            "text": "What type of store did Harvey Milk open in San Francisco when he moved to San Francisco?",
             "options": [
                 "Fruit Store",
                 "Camera Store",
@@ -41,12 +41,12 @@
             "answer": 1
         },
         {
-            "text":"What board did Harvey Milk get named to before getting elected as Supervisor",
+            "text":"What board did Harvey Milk get named to before getting elected to the Board of supervisors?",
             "options": [
                 "Board of Permit Appeals",
                 "Board of Permit Applications",
                 "Board of Transportation Funding",
-                "Board of Transportation Schedueling"
+                "Board of Transportation Scheduling"
             ],
             "answer": 0
         },
@@ -61,7 +61,7 @@
             "answer": 2
         },
         {
-            "text": "How many times did Harvey Milk run for the Board of Supervisors?",
+            "text": "How many times did Harvey Milk run for the Board of supervisors?",
             "options": [
                 "4",
                 "2",
@@ -71,7 +71,7 @@
             "answer": 3
         },
         {
-            "text": "The proposition that Harvey Milk defeated wanted to fire all gay people from what position?",
+            "text": "The proposition that Harvey Milk defeated wanted to fire all gay people from what profession?",
             "options": [
                 "Senator",
                 "School Teacher",
